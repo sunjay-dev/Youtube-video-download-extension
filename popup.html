@@ -1,0 +1,55 @@
+<!-- popup.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Video Downloader</title>
+  <style>
+    body {
+      width: 300px;
+      height: 200px;
+      padding: 20px;
+      text-align: center;
+      background-color: #fff;
+      color: #000;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #000;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    marquee {
+      margin-top: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      border: 1px solid #000;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="title">YouTube Video Downloader</h1>
+  <marquee id="videoTitleMarquee">Video Title Will Appear Here</marquee>
+  <button id="downloadButton">Download Video</button>
+  <script src="popup.js"></script>
+</body>
+</html>

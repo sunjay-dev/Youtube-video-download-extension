@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "youtube to mp4",
+  "version": "1.0",
+  "description": "Link to video downloader",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_icon": "favicon.png",
+    "default_title": "Run Script",
+    "default_popup": "popup.html"
+  }
+}
